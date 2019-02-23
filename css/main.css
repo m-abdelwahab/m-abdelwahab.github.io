@@ -35,6 +35,8 @@ section {
     width: 0%;
     height: 100vh;
     overflow: hidden;
+    overflow-x: hidden;
+
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
