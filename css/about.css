@@ -800,6 +800,24 @@ body.nav-active .nav__list-item:nth-child(4) {
     margin-bottom: 0;
 }
 
+.img {
+    max-width: 100%;
+    height: auto;
+    margin:  auto;
+display: block;
+    /* background-size: cover; */
+}
+
+@media (max-width: 780px) {
+
+    .img {
+        margin: 20px auto;
+        height: 300px;
+    }
+
+
+
+}
 
 
 /*--------------------------------------------------------------
@@ -864,7 +882,10 @@ body.nav-active .nav__list-item:nth-child(4) {
     padding: 10px 0px;
     width: 150px;
     border-radius: 6px;
-    margin: 10px;
+
+    left: 50%;
+    transform: translate(-50%);
+    margin: 20px;
 
 }
 
@@ -873,6 +894,7 @@ body.nav-active .nav__list-item:nth-child(4) {
     border: 1px solid #0a84f3;
     color: #0a84f3;
 }
+
 
 
 /*--------------------------------------------------------------
