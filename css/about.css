@@ -803,8 +803,8 @@ body.nav-active .nav__list-item:nth-child(4) {
 .img {
     max-width: 100%;
     height: auto;
-    margin:  auto;
-display: block;
+    margin: auto;
+    display: block;
     /* background-size: cover; */
 }
 
@@ -871,22 +871,17 @@ display: block;
 --------------------------------------------------------------*/
 .btn {
     text-align: center;
-    display: inline-block;
     position: relative;
     text-decoration: none;
     color: #fff;
     text-transform: capitalize;
     background-color: #0ae;
-    /* put your font-family */
     font-size: 18px;
     padding: 10px 0px;
     width: 150px;
     border-radius: 6px;
-
-    left: 50%;
-    transform: translate(-50%);
-    margin: 20px;
-
+    margin: 10px auto;
+    display: block;
 }
 
 .btn:hover {
