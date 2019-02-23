@@ -727,6 +727,26 @@ body.nav-active .nav__list-item:nth-child(4) {
   background-color: #0ae;
 
 }
+@media(max-width:760px){
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  ::-webkit-scrollbar-track {
+   display: none;
+  }
+
+  ::-webkit-scrollbar-thumb {
+   display: none;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    display: none;
+
+  }
+
+
+}
 
 
 
