@@ -572,9 +572,9 @@ body.nav-active .nav__list-item:nth-child(4) {
 # Layout
 --------------------------------------------------------------*/
 
-.site-section {
+/* .site-section {
   padding: 5em 0;
-}
+} */
 /*--------------------------------------------------------------
 # Layout
 --------------------------------------------------------------*/
@@ -612,7 +612,7 @@ body.nav-active .nav__list-item:nth-child(4) {
   }
 
   .content {
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding: 1em;
     width: 85%;
     padding-bottom: 15px;
